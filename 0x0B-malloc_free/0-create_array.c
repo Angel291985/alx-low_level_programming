@@ -8,11 +8,11 @@
  * @c: A character to initialized the array
  * Return: Apointer to the array or NULL if it fails
  */
-char *create_array(unsighed int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *s;
 
-	unsighed int i = 0;
+	unsigned int i = 0;
 
 	s = malloc(size * sizeof(char));
 
