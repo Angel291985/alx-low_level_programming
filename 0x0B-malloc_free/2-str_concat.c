@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	starts1 = new_str;
 	if (new_str == NULL)
 		return (NULL);
-	for (; 1 < (lens1 + lens2); i++)
+	for (; i < (lens1 + lens2); i++)
 	{
 		if (i < lens1)
 		{
