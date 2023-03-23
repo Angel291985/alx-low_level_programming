@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-""" island perimeter """
+"""island perimeter"""
 
 
 def island_perimeter(grid):
-    """ returns perimeter """
+    """returns perimeter"""
     count = 0
     index = 0
 
-    if not isinstance(grid, lsit):
+    if not isinstance(grid, list):
         return 0
 
     for row in grid:
